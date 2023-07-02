@@ -1332,11 +1332,7 @@ margin-left: 0;
     flex-direction: column;
 }
 
-.portfolio-nav {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 72px;
-}
+
 
 .menu-button {
     background: var(--cloud-color);
@@ -1392,6 +1388,14 @@ margin-left: 0;
     display: flex;
         flex-wrap: wrap;
 }
+
+
+.portfolio-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
 
 @media (max-width: 767px) {
 
