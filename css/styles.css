@@ -107,7 +107,38 @@ button {
 }
 
 
+@media screen and (max-width: 428px) {
 
+    .container.direction-header {
+        width: 428px;
+        margin: 0 auto;
+        padding: 0 16px;
+        display: flex;
+        align-items: center;
+        /* background-color: #89ff6e; */
+        position: relative;
+    }
+
+    .list.benefits {
+        display: none;
+    }
+
+    .container.direction-header .mobile-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 24px;
+        right: 16px;
+        padding: 0;
+        background: var(--white-color);
+        font-size: 0;
+        cursor: pointer;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+}
 
 
 @media screen and (min-width: 428px) and (max-width: 768px) {
@@ -346,7 +377,24 @@ button {
     max-width: 1440px;
 }
 
- 
+ @media screen and (max-width: 428px) {
+     .container.img {
+         width: 428px;
+     }
+
+     .container.img .main-title {
+
+         font-size: 36px;
+         font-weight: 700;
+         line-height: 40px;
+         letter-spacing: 0.72px;
+         color: var(--white-color);
+         padding-bottom: 72px;
+         max-width: 496px;
+         text-align: center;
+     }
+
+ }
 
 
 @media screen and (min-width: 428px) and (max-width: 768px) {
@@ -460,7 +508,46 @@ button {
 }
 
 
+@media screen and (max-width: 428px) {
+    .description-picture {
+        display: none;
+    }
 
+    .section-description {
+        padding: 96px 0;
+        /* background-color: #ef0707; */
+
+    }
+
+    .container.two {
+        display: flex;
+        flex-direction: column;
+        width: 428px;
+        margin: 0 auto;
+        padding: 0 16px;
+
+    }
+
+    .description.description-pictures {
+        gap: 72px;
+    }
+
+    .test {
+        display: block;
+        flex-basis: content;
+
+    }
+
+    .test .text-description {
+        font-weight: 500;
+    }
+
+    .test .desc {
+        text-align: center;
+        font-size: var(--titleh2-size);
+        font-weight: 700;
+    }
+}
     
 
 
@@ -623,6 +710,23 @@ font-family: var(--primary-font);
 
 .wedoing-item {
     width: calc((100% - 48px) / 3);
+
+}
+
+@media screen and (max-width: 428px) {
+
+    .section-wedoing {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
 }
 
 
@@ -667,7 +771,31 @@ font-family: var(--primary-font);
     width: calc((100% - 72px) / 4);
 }
 
- 
+@media screen and (max-width: 428px) {
+    .sec-ourteam {
+        background-color: var(--cloud-color);
+        padding: 96px 0;
+    }
+
+    .container.position {
+        display: flex;
+        flex-direction: column;
+        width: 428px;
+        margin: 0 auto;
+
+    }
+
+    .container.position .description {
+        gap: 72px;
+
+    }
+
+    .list-ourteam {
+        display: block;
+        flex-basis: content;
+    }
+
+}
     
 
 @media screen and (min-width: 428px) and (max-width: 768px) {
@@ -844,7 +972,41 @@ font-family: var(--primary-font);
     height: 88px;
 }
 
- 
+ @media screen and (max-width: 428px) {
+
+     .sec-customers {
+         padding-top: 96px;
+         padding-bottom: 96px;
+     }
+
+     .container.five {
+         width: 428px;
+         margin: 0 auto;
+         padding: 0 16px;
+     }
+
+     .description {
+         flex-direction: row;
+         flex-wrap: wrap;
+         align-items: center;
+         justify-content: center;
+         column-gap: 16px;
+         row-gap: 72px;
+
+
+     }
+
+     .clients {
+         flex-basis: calc((100% - 16px) / 2);
+     }
+
+     .customers-links .customers-link {
+         width: 190px;
+         height: 88px;
+
+     }
+
+ }
     
 
 @media screen and (min-width: 428px) and (max-width: 768px) {
@@ -951,7 +1113,57 @@ font-family: var(--primary-font);
 
 
  
-    
+@media screen and (max-width: 428px)  {
+
+    .container.direction-social {
+        width: 428px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .direction-social {
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .soc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .footer-social {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .div-subscribe .social-subscribe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .div-subscribe .input-subscribe {
+        width: 398px;
+        height: 40px;
+        margin: 0;
+        border-radius: 4px;
+        border: 1px solid var(--white, #FFF);
+        opacity: 0.30000001192092896;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+    }
+
+
+
+}
 
 
 @media screen and (min-width: 428px) and (max-width: 768px) {
@@ -1681,7 +1893,70 @@ margin-left: 0;
     margin-bottom: 72px;
 }
 
- 
+ @media screen and (max-width: 428px)  {
+
+     .portfolio-main {
+         padding-top: 48px;
+         padding-bottom: 48px;
+
+     }
+
+     .container {
+         width: 428px;
+         margin: 0 auto;
+         padding: 0 16px;
+
+     }
+
+     .portfolio-nav {
+
+         margin-bottom: 48px;
+     }
+
+     .description-range {
+         flex-direction: row;
+         flex-wrap: wrap;
+         gap: 48px;
+
+
+     }
+
+     .box {
+         display: block;
+         flex-basis: content;
+
+     }
+
+
+     .list.description.portfolio-nav {
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: flex-start;
+         margin-left: 0;
+
+         gap: 24px;
+
+         width: 280px;
+     }
+
+     .menu-button {
+         padding: 8px 16px;
+     }
+
+     .list.description-range .box-overlay {
+         position: relative;
+         overflow: hidden;
+         width: 396px;
+         height: 280px;
+     }
+
+     .box-overlay .picture {
+         width: 396px;
+         height: 280px;
+     }
+
+
+ }
     
 
 @media screen and (min-width: 428px) and (max-width: 768px) {
