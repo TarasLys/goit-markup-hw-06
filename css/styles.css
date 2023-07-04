@@ -1731,13 +1731,13 @@ margin-left: 0;
 
 
 @media screen and (max-width: 428px) {
-    /* .list.adress-mobile .addlink-mobile {
+    .list.adress-mobile .addlink-mobile {
            
 
             font-size: 32px;
             font-weight: 700;
             line-height: 40px;
-        } */
+        }
 }
 
 
