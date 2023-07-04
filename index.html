@@ -58,7 +58,13 @@
           </ul>
         </address>
 
-        <button data-mobile-open class="mobile-button" type="button">
+        <button
+          data-mobile-open
+          class="mobile-button menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          type="button"
+        >
           <svg class="mobile-icon" width="32" height="22">
             <use href="./images/icons.svg#hamburger"></use>
           </svg>
@@ -553,9 +559,9 @@
     </div>
     <!-- Modal window -->
     <!---------------------------- Mobile window ---------------------------->
-    <div class="backdrop is-hidden" data-mobile>
+    <div class="menu-container js-menu-container" id="mobile-menu">
       <div class="modal-mobile form-modal-mobile">
-        <button class="button-close" type="button" data-mobile-close>
+        <button class="button-close menu-toggle js-close-menu" type="button">
           <svg class="icon-modal" width="8" height="8">
             <use href="./images/icons.svg#button close"></use>
           </svg>
