@@ -110,7 +110,7 @@ button {
 @media screen and (max-width: 428px) {
 
     .container.direction-header {
-        width: 428px;
+        width: 100%;
         margin: 0 auto;
         padding: 0 16px;
         display: flex;
@@ -379,7 +379,7 @@ button {
 
  @media screen and (max-width: 428px) {
      .container.img {
-         width: 428px;
+        width: 100%;
      }
 
      .container.img .main-title {
@@ -522,7 +522,7 @@ button {
     .container.two {
         display: flex;
         flex-direction: column;
-        width: 428px;
+        width: 100%;
         margin: 0 auto;
         padding: 0 16px;
 
@@ -780,7 +780,7 @@ font-family: var(--primary-font);
     .container.position {
         display: flex;
         flex-direction: column;
-        width: 428px;
+        width: 100%;
         margin: 0 auto;
 
     }
@@ -980,7 +980,7 @@ font-family: var(--primary-font);
      }
 
      .container.five {
-         width: 428px;
+        width: 100%;
          margin: 0 auto;
          padding: 0 16px;
      }
@@ -1116,7 +1116,7 @@ font-family: var(--primary-font);
 @media screen and (max-width: 428px)  {
 
     .container.direction-social {
-        width: 428px;
+        width: 100%;
         margin: 0 auto;
         padding: 0 15px;
     }
@@ -1902,7 +1902,7 @@ margin-left: 0;
      }
 
      .container {
-         width: 428px;
+        width: 100%;
          margin: 0 auto;
          padding: 0 16px;
 
