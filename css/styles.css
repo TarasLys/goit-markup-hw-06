@@ -359,13 +359,17 @@ button {
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url("../images/jpg/people-office.jpg");
+        @media (min-resolution: 192dpi) {
+                background-image: url("../images/jpg/people-office@2x.jpg");
+            }
+        
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 
-@media (min-resolution 192dpi) {
+/* @media resolution (min-resolution 192dpi) {
     .section-main {
         max-width: 1440px;
         margin: auto;
@@ -383,10 +387,15 @@ button {
 
 
 
+        background-image: url("../img/some-img.png");
+
+        @media (min-resolution: 2dppx) {
+            background-image: url("../img/some-img@2x.png");
+   
 
 
     }
-}
+} */
 
 
 
@@ -1862,13 +1871,13 @@ button {
 
 }
 
-.div-summa-mobile {
+/* .div-summa-mobile {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
 
 
     position: relative;
-}
+} */
 
 
 .div-menu-mobile {
@@ -1876,6 +1885,7 @@ button {
     position: fixed;
     top: 80px;
     left: 40px;
+    z-index: 9999;
 }
 
 .div-summa-mobile .div-adress-mobile {
@@ -1883,6 +1893,7 @@ button {
     position: fixed;
     bottom: 130px;
     left: 40px;
+    z-index: 9999;
 }
 
 .div-links-mobile {
@@ -1890,6 +1901,7 @@ button {
     position: fixed;
     bottom: 40px;
     left: 40px;
+    z-index: 9999;
 }
 
 
